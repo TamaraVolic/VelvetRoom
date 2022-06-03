@@ -1,0 +1,35 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+    background-color:#5561AD;
+}
+
+body {
+    background-color: #5561AD;
+    color: white;
+}
+
+body {
+    margin-bottom: 60px;
+}
+
+.NummberOfCards {
+    border: none;
+}
+
+.BtnTwoCards{
+    background-color: black;
+    border: white;
+    border-radius: 2px;
+    color: white;
+}
