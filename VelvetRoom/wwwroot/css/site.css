@@ -60,3 +60,9 @@ a{
 .HeaderNav{
     background-color: #000090;
 }
+.dropdown {
+    background-color: black;
+    border: white;
+    border-radius: 5px;
+    color: white;
+}
