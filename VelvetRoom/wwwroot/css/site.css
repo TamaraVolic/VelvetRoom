@@ -15,8 +15,8 @@ html {
 }
 
 body {
-    /*background-color: #5561AD;*/
-    color: black;
+    background-color: #5561AD;
+    color: white;
 }
 
 body {
@@ -55,7 +55,7 @@ body {
 
 a{
     text-decoration: none;
-    color:red;
+    color:white;
 }
 
 .HeaderNav{
@@ -67,6 +67,13 @@ a{
 }
 
 .TheFool {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 150px;
+}
+
+.Igor {
     border: 1px solid #ddd;
     border-radius: 4px;
     padding: 5px;
