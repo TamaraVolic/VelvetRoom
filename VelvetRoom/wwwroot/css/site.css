@@ -24,26 +24,32 @@ body {
 
 .NummberOfCards {
     border: none;
-    flex-wrap:wrap;
+    flex-wrap: wrap;
 }
 
-.BtnTwoCards{
+.BtnTwoCards {
     background-color: black;
     border: white;
     border-radius: 5px;
     color: white;
+
+    padding: 1px;
 }
 .BtnThreeCards {
     background-color: black;
     border: white;
     border-radius: 5px;
     color: white;
+
+    padding: 1px;
 }
 .BtnFiveCards {
     background-color: black;
     border: white;
     border-radius: 5px;
     color: white;
+
+    padding: 1px;
 }
 .BtnNextCard {
     background-color: black;
@@ -66,6 +72,10 @@ a{
     border-radius: 4px;
     padding: 5px;
     width: 150px;
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .Igor {
@@ -73,6 +83,10 @@ a{
     border-radius: 4px;
     padding: 5px;
     width: 150px;
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .dropdown {
@@ -95,6 +109,38 @@ p {
     color: white;
 }
 
+.labelclass{
+    color: white;
+}
+
 .navbar-light .navbar-brand {
     color: white;
+}
+
+.navbar-toggler{
+    color:white;
+}
+
+#profil{
+    color: white;
+}
+
+#email {
+    color: white;
+}
+
+#change-password{
+    color: white;
+}
+
+#two-factor{
+    color: white;
+}
+
+#personal-data{
+    color: white;
+}
+
+#email-verification{
+    display: none;
 }
