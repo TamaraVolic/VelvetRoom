@@ -61,7 +61,6 @@ a{
 .HeaderNav{
     background-color: #000090;
 }
-
 .TarotCardInformationFlex {
     background-color: green;
 }
@@ -72,10 +71,9 @@ a{
     padding: 5px;
     width: 150px;
 }
-
-.Igor {
-    border: 1px solid #ddd;
-    border-radius: 4px;
-    padding: 5px;
-    width: 150px;
+.dropdown {
+    background-color: black;
+    border: white;
+    border-radius: 5px;
+    color: white;
 }
