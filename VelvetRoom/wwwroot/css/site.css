@@ -16,7 +16,6 @@ html {
 
 body {
     background-color: #5561AD;
-    color: white;
 }
 
 body {
@@ -54,7 +53,7 @@ body {
 }
 
 a{
-    text-decoration: none;
+    /*text-decoration: none;*/
     color:white;
 }
 
@@ -75,5 +74,22 @@ a{
     background-color: black;
     border: white;
     border-radius: 5px;
+    color: white;
+}
+
+h1{
+    color: white;
+}
+h2 {
+    color: white;
+}
+h3 {
+    color: white;
+}
+p {
+    color: white;
+}
+
+.navbar-light .navbar-brand {
     color: white;
 }
