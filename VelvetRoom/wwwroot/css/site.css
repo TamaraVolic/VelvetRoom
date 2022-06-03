@@ -11,12 +11,12 @@ html {
 html {
     position: relative;
     min-height: 100%;
-    background-color:#5561AD;
+    /*background-color:#5561AD;*/
 }
 
 body {
-    background-color: #5561AD;
-    color: white;
+    /*background-color: #5561AD;*/
+    color: black;
 }
 
 body {
@@ -25,11 +25,38 @@ body {
 
 .NummberOfCards {
     border: none;
+    flex-wrap:wrap;
 }
 
 .BtnTwoCards{
     background-color: black;
     border: white;
-    border-radius: 2px;
+    border-radius: 5px;
     color: white;
+}
+.BtnThreeCards {
+    background-color: black;
+    border: white;
+    border-radius: 5px;
+    color: white;
+}
+.BtnFiveCards {
+    background-color: black;
+    border: white;
+    border-radius: 5px;
+    color: white;
+}
+.BtnNextCard {
+    background-color: black;
+    border: white;
+    border-radius: 5px;
+    color: white;
+}
+
+a{
+    text-decoration: none;
+}
+
+.HeaderNav{
+    background-color: #000090;
 }
