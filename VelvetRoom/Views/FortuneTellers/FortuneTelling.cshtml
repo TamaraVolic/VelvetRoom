@@ -9,16 +9,25 @@
 <h1>Choose your Fortune Teller</h1>
 <label for="FortuneTeller" class="labelclass">Choose a Fortune Teller:</label>
 
-<select class= "dropdown "name="cars" id="cars">
+<select class= "dropdown "name="fortuneTeller" id="fortuneTeller">
   <option value="igor">Igor</option>
-  <option value="ursula">Ursula</option>
+  <option Selected="True" value="ursula">Ursula</option>
   <option value="scherezad">Scherezad</option>
 </select>
+
+
+
+<asp:DropDownList AutoPostBack="True"
+                    OnSelectedIndexChanged="Selection_Change" ID="fortuneTeller2" runat="server">
+                              <asp:ListItem Selected="True" Value="igor">Igor</asp:ListItem>
+                              <asp:ListItem Value="ursula">Ursula</asp:ListItem>
+                              <asp:ListItem Value="scherezad">Scherezad</asp:ListItem>
+</asp:DropDownList>
 
 <div class="FortuneTellerInformationFlex">
     <img src ="~/img/FortuneTellers/Igor.png" class ="Igor" alt="Igor" />
     <h2>Igor</h2>
-    <p>Igor takes pride in his professional tellings and straightforward approach. He will always tell the customer what the cards say with no regards to what the tellings said.</p>
+    <p>@ViewData["Message"]</p>
 </div>
 <h2>Choose your Cards</h2>
 <div class="NummberOfCards">
