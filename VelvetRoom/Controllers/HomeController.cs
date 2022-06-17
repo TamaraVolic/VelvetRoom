@@ -18,6 +18,16 @@ namespace VelvetRoom.Controllers
             return View();
         }
 
+        public void SetUp()
+        {
+
+        }
+
+        public void Shuffle()
+        {
+
+        }
+
         public IActionResult Privacy()
         {
             return View();

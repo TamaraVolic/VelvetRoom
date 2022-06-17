@@ -14,9 +14,9 @@ using VelvetRoom.Views.Shared;
 
 namespace VelvetRoom.Controllers
 {
-    public class FortuneTellersController : Controller
+    public class FortuneTellerController : Controller
     {
-        public IActionResult FortuneTelling()
+        public IActionResult Index()
         {
             FortuneTellerModel model = new FortuneTellerModel();
             FortuneTeller fortuneTeller= model.fortuneTellerIgor;
