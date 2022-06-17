@@ -18,12 +18,12 @@ namespace VelvetRoom.Controllers
             return View();
         }
 
-        public void SetUp()
+        private void SetUp()
         {
 
         }
 
-        public void Shuffle()
+        private void Shuffle()
         {
 
         }
